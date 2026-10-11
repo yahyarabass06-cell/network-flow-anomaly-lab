@@ -127,7 +127,9 @@ The latest observed local suite passed 98 tests.
 A fresh Git clone, Python 3.14 environment, non-editable installation and
 exported experiment were independently verified with matching results.
 
-Remote CI results remain pending until verified on GitHub.
+GitHub Actions passed on Python 3.12 and 3.14 for commit `822398d`.
+
+Verified run: [CI results](https://github.com/yahyarabass06-cell/network-flow-anomaly-lab/actions/runs/38172145616).
 
 ## Security Considerations
 
