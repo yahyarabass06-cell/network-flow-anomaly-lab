@@ -31,3 +31,6 @@ line-length = 88
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+[project.scripts]
+network-flow-anomaly = "flow_anomaly.cli:main"
