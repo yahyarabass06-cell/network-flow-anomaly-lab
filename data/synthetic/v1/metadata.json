@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "data_kind": "synthetic",
+  "label_definition": {
+    "0": "Designated benign synthetic scenario",
+    "1": "Designated suspicious high-rate synthetic scenario"
+  },
+  "partitions": {
+    "train": {
+      "file": "train.jsonl",
+      "records": 600,
+      "sha256": "e07ddbeef2b4d6db6401f5ca2ea94503f6235d3d94d8498ae7dd94bb4b2f41ed",
+      "scenario_counts": {
+        "ordinary": 202,
+        "legitimate_bulk": 196,
+        "unusual_benign": 202
+      }
+    },
+    "calibration": {
+      "file": "calibration.jsonl",
+      "records": 300,
+      "sha256": "bc190e8499457da8640ec6e1fc2a03f1e5e1d193f22cb0512e5d622c29dd0788",
+      "scenario_counts": {
+        "ordinary": 80,
+        "legitimate_bulk": 80,
+        "unusual_benign": 74,
+        "suspicious_high_rate": 66
+      }
+    },
+    "test": {
+      "file": "test.jsonl",
+      "records": 400,
+      "sha256": "0f10b9a56780a8c176ef54c16ba7ffb647d95cd6d75294d6e1ffccc9947d18b9",
+      "scenario_counts": {
+        "ordinary": 92,
+        "legitimate_bulk": 101,
+        "unusual_benign": 104,
+        "suspicious_high_rate": 103
+      }
+    }
+  }
+}
